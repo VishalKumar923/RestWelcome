@@ -43,6 +43,8 @@
 	</dependencies>
 
 	<build>
+<finalName>RestDemo</finalName>	
+	
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
