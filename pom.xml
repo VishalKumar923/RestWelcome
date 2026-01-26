@@ -43,7 +43,7 @@
 	</dependencies>
 
 	<build>
-<finalName>RestDemo</finalName>	
+<finalName>restwelcome</finalName>
 	
 		<plugins>
 			<plugin>
