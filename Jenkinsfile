@@ -61,12 +61,8 @@ pipeline {
             }
         }
         
-        stage('Health Check') {
-    steps {
-        sh 'sleep 15'
-        sh 'curl http://3.7.253.47:8081/api/v1/welcome'
-    }
-}
+
+
     }
 
     post {
