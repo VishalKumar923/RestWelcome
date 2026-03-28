@@ -60,6 +60,13 @@ pipeline {
                 '''
             }
         }
+        
+        stage('Health Check') {
+            steps {
+                sh 'sleep 10'
+                sh 'curl http://localhost:8081/api/v1/welcome'
+            }
+        }
     }
 
     post {
